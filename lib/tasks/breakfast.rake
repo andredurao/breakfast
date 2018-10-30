@@ -78,9 +78,9 @@ module Breakfast
           ::Rails.configuration.breakfast.manifest is set to false.
           Enable it by adding the following in your environment file:
 
-            config.breakfast.manifest.digest = true
+            config.breakfast.digest = true
 
-          *Note* by default digest is set to false in development and test enviornments.
+          *Note* by default digest is set to false in development and test environments.
 
         ERROR
       )
